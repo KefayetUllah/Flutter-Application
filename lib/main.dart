@@ -13,8 +13,29 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        primarySwatch: Colors.deepPurple,
       ),
-      home: Scaffold(appBar: AppBar(title: Text("Hello"))),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("CodeFlicks"),
+          centerTitle: true,
+          elevation: 24,
+          backgroundColor: Colors.deepPurple,
+          titleTextStyle: TextStyle(
+            fontSize: 25,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
+        body: Text(
+          "Hello Text",
+          style: TextStyle(
+            fontSize: 35,
+            fontWeight: FontWeight.bold,
+            color: Colors.blue,
+          ),
+        ),
+      ),
     );
   }
 }
