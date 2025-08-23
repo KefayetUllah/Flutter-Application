@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/login.dart';
+import 'package:flutter_application_1/row_column.dart';
+// import 'package:flutter_application_2/row_column.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      //debugShowCheckedModeBanner: false,
-      home: Login(),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        useMaterial3: true,
+      ),
+      home: const RowColumn(),
     );
   }
 }
