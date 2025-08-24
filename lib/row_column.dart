@@ -17,13 +17,17 @@ class _RowColumnState extends State<RowColumn> {
         titleTextStyle: TextStyle(color: Colors.white),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text("Native Android Development"),
-          Text("Flutter Apps"),
-          Text("iOS APP"),
-          Text("Kotlin App"),
+          Image.asset(
+            "images/nature.jpg",
+            height: 200,
+            width: double.infinity,
+            fit: BoxFit.cover,
+          ),
+          Text(
+            "Nature",
+            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+          ),
         ],
       ),
     );
