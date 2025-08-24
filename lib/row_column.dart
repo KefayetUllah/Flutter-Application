@@ -20,50 +20,94 @@ class _RowColumnState extends State<RowColumn> {
           fontWeight: FontWeight.bold,
         ),
       ),
-      body: Column(
-        children: [
-          Image.asset(
-            "images/nature.jpg",
-            height: 200,
-            width: double.infinity,
-            fit: BoxFit.cover,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                "Nature",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-              ),
-              Row(
-                children: [
-                  Icon(Icons.star, size: 35.0),
-                  Text(
-                    "90.0",
-                    style: TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Image.asset(
+              "images/nature.jpg",
+              height: 200,
+              width: double.infinity,
+              fit: BoxFit.cover,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Nature",
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                ),
+                Row(
+                  children: [
+                    Icon(Icons.star, size: 35.0),
+                    Text(
+                      "90.0",
+                      style: TextStyle(
+                        fontSize: 25.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
+                  ],
+                ),
+              ],
+            ),
+            Text(
+              "Beautiful Nature",
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 10),
+              color: Colors.deepPurple,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    children: [
+                      Icon(Icons.call, size: 35, color: Colors.green),
+                      SizedBox(height: 10.0),
+                      Text(
+                        "CALL",
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.share, size: 35, color: Colors.green),
+                      SizedBox(height: 10.0),
+                      Text(
+                        "SHARE",
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.map, size: 35, color: Colors.green),
+                      SizedBox(height: 10.0),
+                      Text(
+                        "LOCATION",
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
-            ],
-          ),
-          Text(
-            "Beautiful Nature",
-            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-          ),
-          Icon(Icons.call, size: 35, color: Colors.green),
-          Text(
-            "CALL",
-            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-          ),
-          Icon(Icons.call, size: 35, color: Colors.green),
-          Text(
-            "CALL",
-            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-          ),
-        ],
+            ),
+            Text(
+              "The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box",
+            ),
+          ],
+        ),
       ),
     );
   }
