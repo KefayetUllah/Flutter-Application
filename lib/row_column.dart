@@ -51,13 +51,16 @@ class _RowColumnState extends State<RowColumn> {
                 ),
               ],
             ),
-            Text(
-              "Beautiful Nature",
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+
+            Center(
+              child: Text(
+                "Beautiful Nature",
+                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+              ),
             ),
             Container(
               margin: EdgeInsets.symmetric(horizontal: 10),
-              color: Colors.deepPurple,
+              color: Colors.yellowAccent,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
