@@ -33,21 +33,29 @@ class _RowColumnState extends State<RowColumn> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  "Nature",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                Container(
+                  color: Colors.lightBlueAccent,
+                  margin: EdgeInsets.all(12),
+                  child: Text(
+                    "Nature",
+                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                  ),
                 ),
-                Row(
-                  children: [
-                    Icon(Icons.star, size: 35.0),
-                    Text(
-                      "90.0",
-                      style: TextStyle(
-                        fontSize: 25.0,
-                        fontWeight: FontWeight.bold,
+                Container(
+                  color: Colors.lightBlueAccent,
+                  margin: EdgeInsets.all(12),
+                  child: Row(
+                    children: [
+                      Icon(Icons.star, size: 35.0),
+                      Text(
+                        "90.0",
+                        style: TextStyle(
+                          fontSize: 25.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),
