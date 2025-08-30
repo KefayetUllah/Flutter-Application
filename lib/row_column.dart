@@ -38,7 +38,11 @@ class _RowColumnState extends State<RowColumn> {
                   margin: EdgeInsets.all(12),
                   child: Text(
                     "Nature",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                      color: Colors.amber,
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
                 Container(
@@ -46,10 +50,11 @@ class _RowColumnState extends State<RowColumn> {
                   margin: EdgeInsets.all(12),
                   child: Row(
                     children: [
-                      Icon(Icons.star, size: 35.0),
+                      Icon(Icons.star, size: 35.0, color: Colors.amber),
                       Text(
                         "90.0",
                         style: TextStyle(
+                          color: Colors.amber,
                           fontSize: 25.0,
                           fontWeight: FontWeight.bold,
                         ),
@@ -84,11 +89,15 @@ class _RowColumnState extends State<RowColumn> {
                         child: Icon(Icons.call, size: 35, color: Colors.white),
                       ),
                       SizedBox(height: 10.0),
-                      Text(
-                        "CALL",
-                        style: TextStyle(
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        margin: EdgeInsets.all(2),
+                        color: Colors.blue,
+                        child: Text(
+                          "CALL",
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ],
@@ -101,11 +110,15 @@ class _RowColumnState extends State<RowColumn> {
                         child: Icon(Icons.share, size: 35, color: Colors.white),
                       ),
                       SizedBox(height: 10.0),
-                      Text(
-                        "SHARE",
-                        style: TextStyle(
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        margin: EdgeInsets.all(2),
+                        color: Colors.blue,
+                        child: Text(
+                          "SHARE",
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ],
@@ -118,11 +131,15 @@ class _RowColumnState extends State<RowColumn> {
                         child: Icon(Icons.map, size: 35, color: Colors.white),
                       ),
                       SizedBox(height: 10.0),
-                      Text(
-                        "LOCATION",
-                        style: TextStyle(
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                      Container(
+                        margin: EdgeInsets.all(2),
+                        color: Colors.blue,
+                        child: Text(
+                          "LOCATION",
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ],
