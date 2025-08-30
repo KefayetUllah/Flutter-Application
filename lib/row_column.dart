@@ -14,7 +14,7 @@ class _RowColumnState extends State<RowColumn> {
       appBar: AppBar(
         title: Text("Row Column"),
         centerTitle: true,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.orange,
         titleTextStyle: TextStyle(
           fontSize: 25,
           color: Colors.white,
@@ -38,7 +38,7 @@ class _RowColumnState extends State<RowColumn> {
                   color: Colors.lightBlueAccent,
                   margin: EdgeInsets.all(12),
                   child: Text(
-                    "Nature",
+                    "Beautiful Nature",
                     style: TextStyle(
                       color: Colors.amber,
                       fontSize: 25,
@@ -70,9 +70,13 @@ class _RowColumnState extends State<RowColumn> {
               child: Container(
                 margin: EdgeInsets.symmetric(horizontal: 12.0),
                 color: Colors.deepPurpleAccent,
-                child: Text(
-                  "Beautiful Nature",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                child: Container(
+                  color: Colors.deepOrange,
+                  margin: EdgeInsets.all(10),
+                  child: Text(
+                    "This is a Simple Design",
+                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
             ),
