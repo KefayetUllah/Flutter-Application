@@ -61,9 +61,13 @@ class _RowColumnState extends State<RowColumn> {
             ),
 
             Center(
-              child: Text(
-                "Beautiful Nature",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+              child: Container(
+                margin: EdgeInsets.symmetric(horizontal: 12.0),
+                color: Colors.deepPurpleAccent,
+                child: Text(
+                  "Beautiful Nature",
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                ),
               ),
             ),
             Container(
@@ -77,7 +81,7 @@ class _RowColumnState extends State<RowColumn> {
                       Container(
                         margin: EdgeInsets.all(2),
                         color: Colors.blue,
-                        child: Icon(Icons.call, size: 35, color: Colors.green),
+                        child: Icon(Icons.call, size: 35, color: Colors.white),
                       ),
                       SizedBox(height: 10.0),
                       Text(
@@ -94,7 +98,7 @@ class _RowColumnState extends State<RowColumn> {
                       Container(
                         margin: EdgeInsets.all(2),
                         color: Colors.blue,
-                        child: Icon(Icons.share, size: 35, color: Colors.green),
+                        child: Icon(Icons.share, size: 35, color: Colors.white),
                       ),
                       SizedBox(height: 10.0),
                       Text(
@@ -111,7 +115,7 @@ class _RowColumnState extends State<RowColumn> {
                       Container(
                         margin: EdgeInsets.all(2),
                         color: Colors.blue,
-                        child: Icon(Icons.map, size: 35, color: Colors.green),
+                        child: Icon(Icons.map, size: 35, color: Colors.white),
                       ),
                       SizedBox(height: 10.0),
                       Text(
@@ -126,8 +130,12 @@ class _RowColumnState extends State<RowColumn> {
                 ],
               ),
             ),
-            Text(
-              "The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box",
+            Container(
+              margin: EdgeInsets.all(2),
+              color: Colors.grey,
+              child: Text(
+                "The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v v vThe fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box The fox is bigger then the box v The fox is bigger then the box",
+              ),
             ),
           ],
         ),
