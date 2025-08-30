@@ -74,7 +74,11 @@ class _RowColumnState extends State<RowColumn> {
                 children: [
                   Column(
                     children: [
-                      Icon(Icons.call, size: 35, color: Colors.green),
+                      Container(
+                        margin: EdgeInsets.all(2),
+                        color: Colors.blue,
+                        child: Icon(Icons.call, size: 35, color: Colors.green),
+                      ),
                       SizedBox(height: 10.0),
                       Text(
                         "CALL",
@@ -87,7 +91,11 @@ class _RowColumnState extends State<RowColumn> {
                   ),
                   Column(
                     children: [
-                      Icon(Icons.share, size: 35, color: Colors.green),
+                      Container(
+                        margin: EdgeInsets.all(2),
+                        color: Colors.blue,
+                        child: Icon(Icons.share, size: 35, color: Colors.green),
+                      ),
                       SizedBox(height: 10.0),
                       Text(
                         "SHARE",
@@ -100,7 +108,11 @@ class _RowColumnState extends State<RowColumn> {
                   ),
                   Column(
                     children: [
-                      Icon(Icons.map, size: 35, color: Colors.green),
+                      Container(
+                        margin: EdgeInsets.all(2),
+                        color: Colors.blue,
+                        child: Icon(Icons.map, size: 35, color: Colors.green),
+                      ),
                       SizedBox(height: 10.0),
                       Text(
                         "LOCATION",
